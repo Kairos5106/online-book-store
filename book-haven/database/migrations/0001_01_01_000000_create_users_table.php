@@ -15,9 +15,14 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
+            $table->string('usertype')->default(0); // 0 for default customer, 1 for admin
+            $table->string('phone')->nullable(); // collect phone no
+            $table->string('address')->nullable(); // collect customer address
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
+            $table->foreignId('current_team_id')->nullable();
+            $table->string('profile_photo_path', 2048)->nullable();
             $table->timestamps();
         });
 
