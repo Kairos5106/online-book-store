@@ -2,7 +2,7 @@
 <header class="header_section">
             <div class="container">
                <nav class="navbar navbar-expand-lg custom_nav-container ">
-                  <a class="navbar-brand" href="index.html"><img width="250" src="images/logo.png" alt="#" /></a>
+                  <a class="navbar-brand" href="/"><strong><h1 class="text-brand">Book Haven</h1></strong></a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class=""> </span>
                   </button>
@@ -41,10 +41,10 @@
                               </li>
                            @else
                               <li class="nav-item">
-                                 <a class="nav-link btn btn-primary" a href="{{ route('login') }}" id="logincss" href="contact.html">Login</a>
+                                 <a class="nav-link btn btn-light" a href="{{ route('login') }}" href="contact.html">Login</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link btn btn-success" a href="{{ route('register') }}" href="contact.html">Register</a>
+                                 <a class="nav-link btn btn-light" a href="{{ route('register') }}" href="contact.html">Register</a>
                               </li>
                            @endauth
                         @endif
