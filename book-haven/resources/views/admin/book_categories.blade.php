@@ -18,6 +18,14 @@
             width: 50%;
             margin-bottom: 20px;
         }
+        .center {
+            margin: auto;
+            width: 50%;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+            border: 3px solid white;
+        }
     </style>
   </head>
   <body>
@@ -46,9 +54,37 @@
                         @csrf
 
                         <input class="input_color" type="text" name="category" placeholder="Insert new category">
+
                         <input class="btn btn-primary" type="submit" value="Add Category">
+
                     </form>
                 </div>   
+
+                <table class="center">
+
+                    <tr>
+                        <th>Category ID</th>
+                        <th>Category Name</th>
+                        <th>Action</th>
+                    </tr>
+
+                    @foreach ($data as $data)
+
+                    <tr>
+
+                        <td>{{$data->id}}</td>
+                        <td>{{$data->category_name}}</td>
+                        <td>
+                            <!-- <a class="btn btn-warning" href="{{url('/edit_category')}}">Edit</a> -->
+                            <a class="btn btn-danger" onclick="return confirm('Are you sure you want to delete ' + '<?php echo $data->category_name; ?>' + '?')" href="{{url('/delete_category', $data->id)}}">Delete</a>
+                        </td>
+
+                    </tr>
+                        
+                    @endforeach
+
+                </table>
+
             </div>
       </div>
       <!-- page-body-wrapper ends -->
