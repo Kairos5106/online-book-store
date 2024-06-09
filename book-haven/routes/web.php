@@ -34,3 +34,7 @@ Route::get('/view_product_form', [AdminController::class, 'view_product_form']);
 Route::post('/add_product', [AdminController::class, 'add_product']);  
 
 Route::get('/show_product', [AdminController::class, 'show_product']);  
+
+Route::post('/edit_product/{id}', [AdminController::class, 'edit_product']);  
+
+Route::get('/delete_product/{id}', [AdminController::class, 'delete_product']);  

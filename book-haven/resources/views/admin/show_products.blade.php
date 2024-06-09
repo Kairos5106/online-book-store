@@ -69,21 +69,29 @@
                             <th>Quantity</th>
                             <th>Price</th>
                             <th>Image</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
                         </tr>
 
-                    @foreach ($data as $data)
+                    @foreach ($product as $product)
 
                     <tr>
 
-                        <td>{{$data->id}}</td>
-                        <td>{{$data->title}}</td>
-                        <td>{{$data->description}}</td>
-                        <td>{{$data->category}}</td>
-                        <td>{{$data->quantity}}</td>
-                        <td>{{$data->price}}</td>
+                        <td>{{$product->id}}</td>
+                        <td>{{$product->title}}</td>
+                        <td>{{$product->description}}</td>
+                        <td>{{$product->category}}</td>
+                        <td>{{$product->quantity}}</td>
+                        <td>{{$product->price}}</td>
                         <td>
-                            <image class="img_size" src="/product/{{$data->image}}"></image>
+                            <image class="img_size" src="/product/{{$product->image}}"></image>
                         </td>
+                        <td>
+                            <a class="btn btn-warning" href="{{url('/edit_product', $product->id)}}">Edit</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-danger" onclick="return confirm('Are you sure you want to delete ' + '<?php echo $product->title; ?>' + '?')" href="{{url('/delete_product', $product->id)}}">Delete</a>
+                        </td>                       
 
                     </tr>
                         
