@@ -28,3 +28,9 @@ Route::get('/book_categories', [AdminController::class, 'view_category']);
 Route::post('/add_category', [AdminController::class, 'add_category']);  
 
 Route::get('/delete_category/{id}', [AdminController::class, 'delete_category']);  
+
+Route::get('/view_product_form', [AdminController::class, 'view_product_form']);  
+
+Route::post('/add_product', [AdminController::class, 'add_product']);  
+
+Route::get('/show_product', [AdminController::class, 'show_product']);  
