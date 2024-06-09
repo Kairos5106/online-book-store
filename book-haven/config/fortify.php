@@ -1,5 +1,6 @@
 <?php
 
+use App\Providers\RouteServiceProvider;
 use Laravel\Fortify\Features;
 
 return [
@@ -68,12 +69,12 @@ return [
     |--------------------------------------------------------------------------
     |
     | Here you may configure the path where users will get redirected during
-    | authentication or password reset when the operations are successful`
+    | authentication or password reset when the operations are successful
     | and the user is authenticated. You are free to change this value.
     |
     */
 
-    'home' => '/redirect',
+    'home' => RouteServiceProvider::HOME,
 
     /*
     |--------------------------------------------------------------------------
