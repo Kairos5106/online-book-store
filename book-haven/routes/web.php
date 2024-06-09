@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
@@ -21,3 +22,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 Route::get('/redirect', [HomeController::class, 'redirect']);
+
+Route::get('/book_categories', [AdminController::class, 'view_category']);  
+
+Route::post('/add_category', [AdminController::class, 'add_category']);  
