@@ -87,7 +87,7 @@
                             <image class="img_size" src="/product/{{$product->image}}"></image>
                         </td>
                         <td>
-                            <a class="btn btn-warning" href="{{url('/edit_product', $product->id)}}">Edit</a>
+                            <a class="btn btn-warning" href="{{url('/update_product', $product->id)}}">Edit</a>
                         </td>
                         <td>
                             <a class="btn btn-danger" onclick="return confirm('Are you sure you want to delete ' + '<?php echo $product->title; ?>' + '?')" href="{{url('/delete_product', $product->id)}}">Delete</a>

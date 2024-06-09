@@ -71,6 +71,13 @@ class AdminController extends Controller
 
         return view('admin.show_products', compact('product'));
     }
+    
+    function update_product($id){
+        $product = Product::find($id);
+        $category = Category::all();
+
+        return view('admin.update_product', compact('product', 'category'));
+    }
 
     function edit_product(Request $request, $id){
         $product = Product::find($id);
@@ -84,6 +91,18 @@ class AdminController extends Controller
         $product->price = $request->product_price;
 
         $product->quantity = $request->product_quantity;
+
+        $image = $request->product_image;
+
+        if($image){
+
+            $imagename = time().'.'.$image->getClientOriginalExtension();
+
+            $request->product_image->move('product', $imagename);
+
+            $product->image = $imagename;
+            
+        }
 
         $product->save();
 
