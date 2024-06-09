@@ -1,0 +1,68 @@
+10.php artisan make:model Product -m (but i think u should have create it for admin site)
+
+Schema::create('products', function (Blueprint $table) {
+            $table->id();
+
+            $table->string('title')->nullable();
+            $table->string('description')->nullable();
+            $table->string('image')->nullable();
+            $table->string('category')->nullable();
+            $table->string('quantity')->nullable();
+            $table->string('price')->nullable();
+            $table->string('discount_price')->nullable();
+
+            $table->timestamps();
+        });
+
+php artisan migrate
+
+12.php artisan make:model Cart -m
+
+        Schema::create('carts', function (Blueprint $table) {
+            $table->id();
+            $table->string('name')->nullable();
+            $table->string('email')->nullable();
+            $table->string('phone')->nullable();
+            $table->string('address')->nullable();
+            $table->string('product_title')->nullable();
+            $table->string('quantity')->nullable();
+            $table->string('price')->nullable();
+            $table->string('image')->nullable();
+            $table->string('Product_id')->nullable();
+            $table->string('user_id')->nullable();
+            $table->timestamps();
+        });
+
+php artisan migrate
+
+
+14.php artisan make:model Order -m
+
+        Schema::create('orders', function (Blueprint $table) {
+            $table->id();
+            $table->string('name')->nullable();
+            $table->string('email')->nullable();
+            $table->string('phone')->nullable();
+            $table->string('address')->nullable();
+            $table->string('user_id')->nullable();
+
+            $table->string('product_title')->nullable();
+            $table->string('quantity')->nullable();
+            $table->string('price')->nullable();
+            $table->string('image')->nullable();
+            $table->string('product_id')->nullable();
+
+            $table->string('payment_status')->nullable();
+            $table->string('delivery_status')->nullable();
+            $table->timestamps();
+        });
+
+php artisan migrate
+
+15. card payment got 6 steps: (haven't start yet)
+	i. composer require stripe/stripe-php
+	ii.Create a stripe account
+	iii. Changes in the .env
+	iv. Make route
+	v. Make a view for payment
+	vi. Write code for payment in controller
