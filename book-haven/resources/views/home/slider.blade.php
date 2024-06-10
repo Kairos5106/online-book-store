@@ -18,7 +18,7 @@
                                     On Everything
                                  </h1>
                                  <p>
-                                    Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                                    DON'T MISS OUT!
                                  </p>
                                  <div class="btn-box">
                                     <a href="" class="btn1">
@@ -43,7 +43,7 @@
                                     On Everything
                                  </h1>
                                  <p>
-                                    Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                                    BUY NOW
                                  </p>
                                  <div class="btn-box">
                                     <a href="" class="btn1">
@@ -68,7 +68,7 @@
                                     On Everything
                                  </h1>
                                  <p>
-                                    Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                                    GET DISCOUNTS WHEN YOU PURCHASE HIGHER THAN RM50!
                                  </p>
                                  <div class="btn-box">
                                     <a href="" class="btn1">

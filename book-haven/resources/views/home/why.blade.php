@@ -101,7 +101,7 @@
                            Fast Delivery
                         </h5>
                         <p>
-                           variations of passages of Lorem Ipsum available
+                           variations of delivery methods available
                         </p>
                      </div>
                   </div>
@@ -213,10 +213,10 @@
                      </div>
                      <div class="detail-box">
                         <h5>
-                           Free Shiping
+                           Free Shipping
                         </h5>
                         <p>
-                           variations of passages of Lorem Ipsum available
+                           upon RM50 of minimum spend!
                         </p>
                      </div>
                   </div>
@@ -237,7 +237,7 @@
                            Best Quality
                         </h5>
                         <p>
-                           variations of passages of Lorem Ipsum available
+                           highly rated books produced with durable material
                         </p>
                      </div>
                   </div>
