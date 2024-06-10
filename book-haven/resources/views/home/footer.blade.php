@@ -8,9 +8,9 @@
                       <a class="navbar-brand" href="/"><strong><h1 class="text-brand">Book Haven</h1></strong></a>
                       </div>
                       <div class="information_f">
-                        <p><strong>ADDRESS:</strong> 28 White tower, Street Name New York City, USA</p>
-                        <p><strong>TELEPHONE:</strong> +91 987 654 3210</p>
-                        <p><strong>EMAIL:</strong> yourmain@gmail.com</p>
+                        <p><strong>ADDRESS:</strong> University Malaya, Federal Territory of Kuala Lumpur, Malaysia</p>
+                        <p><strong>TELEPHONE:</strong> +6084653210</p>
+                        <p><strong>EMAIL:</strong> starkindustries@gmail.com</p>
                       </div>
                    </div>
                </div>
@@ -45,7 +45,7 @@
                      </div>
                   </div>
                      </div>
-                  </div>     
+                  </div>
                   <div class="col-md-5">
                      <div class="widget_menu">
                         <h3>Newsletter</h3>
@@ -73,8 +73,8 @@
 
       <div class="cpy_">
          <p class="mx-auto">© 2024 All Rights Reserved By <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Stark Industries</a><br>
-         
+
             Distributed By <a href="https://www.google.com/" target="_blank">Odyssey IT Solutions</a>
-         
+
          </p>
       </div>

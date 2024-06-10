@@ -25,7 +25,7 @@
                               Customer
                            </h6>
                            <p>
-                              Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.
+                                I highly recommend the books sold by this website! The material is very comfortable and strong.
                            </p>
                         </div>
                      </div>
