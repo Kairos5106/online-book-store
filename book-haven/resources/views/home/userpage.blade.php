@@ -11,7 +11,7 @@
       <meta name="description" content="" />
       <meta name="author" content="" />
       <link rel="shortcut icon" href="images/favicon.png" type="">
-      <title>Famms - Fashion HTML Template</title>
+      <title>Book Haven</title>
       <!-- bootstrap core css -->
       <link rel="stylesheet" type="text/css" href="home/css/bootstrap.css" />
       <!-- font awesome style -->
@@ -24,12 +24,19 @@
    <body>
       <div class="hero_area">
          @include('home.header')
+
          @include('home.slider')
+
          @include('home.why')
+
          @include('home.arrival')
+
          @include('home.product')
+
          @include('home.subscribe')
+
          @include('home.client')
+         
          @include('home.footer')
       </div>
 

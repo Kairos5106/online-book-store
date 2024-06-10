@@ -5,7 +5,7 @@
                <div class="col-md-4">
                    <div class="full">
                       <div class="logo_footer">
-                        <a href="#"><img width="210" src="images/logo.png" alt="#" /></a>
+                      <a class="navbar-brand" href="/"><strong><h1 class="text-brand">Book Haven</h1></strong></a>
                       </div>
                       <div class="information_f">
                         <p><strong>ADDRESS:</strong> 28 White tower, Street Name New York City, USA</p>
@@ -72,9 +72,9 @@
       <!-- footer end -->
 
       <div class="cpy_">
-         <p class="mx-auto">© 2021 All Rights Reserved By <a href="https://html.design/">Free Html Templates</a><br>
+         <p class="mx-auto">© 2024 All Rights Reserved By <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Stark Industries</a><br>
          
-            Distributed By <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+            Distributed By <a href="https://www.google.com/" target="_blank">Odyssey IT Solutions</a>
          
          </p>
       </div>
